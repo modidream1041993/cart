@@ -1,0 +1,62 @@
+.cart {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.items {
+  list-style: none;
+  margin-top: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding: 115; */
+}
+
+.item {
+  border: 1px solid #ccc;
+  padding: 40px;
+}
+
+.item img {
+  width: 75px;
+  float: left;
+}
+
+.item h3 {
+  margin-top: 0;
+}
+
+.item .price {
+  float: right;
+}
+
+.item .quantity {
+  margin-top: 25px;
+}
+
+.item .plus,
+.item .minus {
+  width: 20px;
+  height: 20px;
+  border: none;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.item .plus:hover,
+.item .minus:hover {
+  background-color: #aaa;
+}
+
+.item .delete {
+  color: red;
+  cursor: pointer;
+}
+
+.total {
+  margin-top: 30px;
+  margin-left:450px;
+}
+
+.total .price {
+  font-weight: bold;
+}
